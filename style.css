@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url("Orange.jpeg");
+    height: 100vh;
+    background-size: cover;
+
+}
+.name{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    left: 15px;
+   
+}
+.profile{
+    width: 150px;
+    position: absolute;  
+    
+    
+    
+}
+.t {
+    width: 35px;
+    position: absolute;
+    right: 100%;
+    top:140%;
+}
+.secondLogo{
+    width: 37px;
+    position:absolute;
+    right: 25%;
+    top: 140%;
+}
+.thirdLogo{
+    width: 39px;
+    position: absolute;
+    right: -42%;
+    top:139%;
+}
+.Gmail{
+  position: absolute;  
+  top:165%;
+  right: 97%;
+}
+.LinkedIn{
+    position: absolute;
+    top: 165%;
+    right: 15%;
+}
+.Instagram{
+    position:absolute;
+    top: 165%;
+    right:-55%;
+}
+.HtmlLogo{
+    position:absolute;
+    width: 113px;
+    top:7.5%;
+}
+.CssLogo{
+    position:absolute;
+    width: 83px;
+    top:7.5%;
+    left:20%;
+}
+.JavaScript{
+    position:absolute;
+    width:120px;
+    left:37%;
+    top:19%;
+}
+.C{
+    position:absolute;
+    width:85px;
+    left:57%;
+    top:18%;
+}
+.Cplus{
+    position:absolute;
+    width:85px;
+    left:75%;
+    top:18%;
+    }
+    .Java{
+        position: absolute;
+        width:340px;
+        bottom:-60%;
+        left:77%;
+    }
+.Language{
+    position: absolute;
+    top: 200%;
+}
+.b{
+    background-color: black;
+    position:absolute;
+    width:650%;
+    height: 100%;
+    right: -275%;
+    top: 230%;
+}
+.HTMLC{
+    width:400px;
+    position:absolute;
+    top: 520%;
+    right:93%;
+}
+.CSSC{
+    width:400px;
+    position:absolute;
+    top:520%;
+    left:80%;
+}
+.JavaScriptC{
+    width:400px;
+    position:absolute;
+    top:520%;
+    left:30%;
+}
+.Border{
+    width: 1250px;
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:95%;
+
+}
+.Certifications{
+    position:absolute;
+    font-family: 'UnifrakturMaguntia', cursive;
+    top: 180%;
+    font-size: 70px;
+    right:30%;
+}
+.HtmlLogo:hover{
+    transform:scale(1.2);
+    
+
+}
+.CssLogo:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.HtmlLogo:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.JavaScript:hover{
+    transform:scale(1.1);
+    z-index:2;
+}
+.Cplus:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.C:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.Java:hover{
+    transform:scale(1.2);
+    z-index:2;
+}
+.AboutMe{
+    position:absolute;
+    top:780%;
+    left:41%;
+    font-size: 40px;
+}
+.AMP{
+    position:absolute;
+    width:40%;
+    left:30%;
+    top:830%;
+}
+.Paragraph{
+   position:absolute;
+   top:1050%;
+}
+
+/* Things for tomorrow, figure out how to make the black box to put the html logo in, use code academy section page tp see how it works and then resize/position it
+*/
+
+.image-container {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width:150px;
+    height: 150px; 
+
+}
